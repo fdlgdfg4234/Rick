@@ -1,0 +1,18 @@
+﻿<Window x:Class="Rick.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rick"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/rick.jpg"/>
+        </Grid.Background>
+        <Button Content="Персонажи" HorizontalAlignment="Left" Margin="116,320,0,0" VerticalAlignment="Top" Height="39" Width="154" Background="White" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
+        <Button Content="Локации" HorizontalAlignment="Center" Margin="0,320,0,0" VerticalAlignment="Top" Height="39" Width="154" FontSize="16" FontWeight="Bold" Background="White"/>
+        <Button Content="Эпизоды" HorizontalAlignment="Left" Margin="523,320,0,0" VerticalAlignment="Top" Height="39" Width="157" Background="White" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
